@@ -63,7 +63,3 @@ The API is deployed on **Render/Netlify**:
 
 ## 📬 Contributing  
 Feel free to submit issues or pull requests! 🚀  
-
----
-
-Let me know if you need any modifications! 😊
