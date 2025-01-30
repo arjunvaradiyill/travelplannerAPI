@@ -1,9 +1,38 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <titile>travel planner api</titile>
-    </head>
-    <body>
-        <h1>api</h1>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Planner API</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px auto; max-width: 800px; text-align: center; display: flex; flex-direction: column; align-items: center; }
+        h1, h2 { color: #333; }
+        code, pre { background: #f4f4f4; padding: 5px; border-radius: 4px; }
+        table { width: 80%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: center; }
+        th { background: #f8f8f8; }
+        a { color: #007bff; text-decoration: none; }
+        ul { display: inline-block; text-align: left; }
+    </style>
+</head>
+<body>
+    <h1>🌍 Travel Planner API</h1>
+    <p>A simple API for managing travel plans using Node.js and MongoDB.</p>
+
+    <h2>🚀 Features</h2>
+    <ul>
+        <li>Create, update, delete, and retrieve travel plans</li>
+    </ul>
+
+    <h2>📜 API Endpoints</h2>
+    <table>
+        <tr><th>Method</th><th>Endpoint</th><th>Description</th></tr>
+        <tr><td>GET</td><td><code>/plans</code></td><td>Get all plans</td></tr>
+        <tr><td>GET</td><td><code>/plans/:id</code></td><td>Get a plan</td></tr>
+        <tr><td>POST</td><td><code>/plans</code></td><td>Create a plan</td></tr>
+        <tr><td>PATCH</td><td><code>/plans/:id</code></td><td>Update a plan</td></tr>
+        <tr><td>DELETE</td><td><code>/plans/:id</code></td><td>Delete a plan</td></tr>
+    </table>
+
+</body>
 </html>
