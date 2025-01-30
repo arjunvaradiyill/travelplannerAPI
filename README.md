@@ -53,7 +53,7 @@ A simple REST API for managing travel plans using **Node.js, Express, and MongoD
 ## 📤 Deployment  
 
 The API is deployed on **Render/Netlify**:  
-🔗 **Live API:** [API Link](#https://travelplannerapi-kjwv.onrender.com/)  
+🔗 **Live API:** [#https://travelplannerapi-kjwv.onrender.com/]()  
  
 
 ## 🛠 Tools Used  
