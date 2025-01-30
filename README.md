@@ -18,11 +18,11 @@ A simple REST API for managing travel plans using **Node.js, Express, and MongoD
 
 | Method | Endpoint            | Description               |
 |--------|---------------------|---------------------------|
-| GET    | `/plans`            | Get all travel plans      |
-| GET    | `/plans/:id`        | Get a single travel plan  |
-| POST   | `/plans`            | Create a new travel plan  |
-| PATCH  | `/plans/:id`        | Update a travel plan      |
-| DELETE | `/plans/:id`        | Delete a travel plan      |
+| GET    | `/plan`            | Get all travel plans      |
+| GET    | `/plan/:id`        | Get a single travel plan  |
+| POST   | `/plan`            | Create a new travel plan  |
+| PATCH  | `/plan/:id`        | Update a travel plan      |
+| DELETE | `/plan/:id`        | Delete a travel plan      |
 
 ## 📌 Installation & Setup  
 
